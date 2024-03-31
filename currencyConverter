@@ -1,1 +1,19 @@
+var pesos: Double = 40
+var reais: Double = 50
+var soles: Double = 60
 
+var total: Double
+
+/*
+1 Peso equals 0.060 USD
+1 Real equals 0.20 USD
+1 Sol equals 0.27 USD 
+*/
+
+var rate1: Double = 0.060
+var rate2: Double = 0.20
+var rate3: Double = 0.27
+
+total = pesos * rate1 + reais * rate2 + soles * rate3
+
+print("US Dollars = $\(total)")
